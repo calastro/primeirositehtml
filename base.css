@@ -1,0 +1,96 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    background-color: #de6210d8; /* Cor de fundo do menu */
+    padding: 20px; /* Espaçamento interno para os itens do menu */
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 25px; /* Espaçamento entre os itens do menu */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; /* Cor do texto dos itens do menu */
+    font-weight: bold;
+}
+
+
+
+.header {
+    min-height: 150px;
+    background-image: url('IMAGENS/doutor-body.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: rgb(255, 255, 255); /* Cor do texto para que seja visível na imagem */
+    padding: 30px; /* Espaçamento interno para melhor legibilidade */
+}
+.header2 {
+    min-height: 150px;
+    background-image: url(IMAGENS/mulher-meditando.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #f1f1f1;
+    padding: 30px;
+}
+.header3 {
+    min-height: 150px;
+    background-image: url(IMAGENS/consultorio-paciente-medico.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color:black;
+    padding: 30px;
+}
+.header4 {
+    min-height: 150px;
+    background-image: url(IMAGENS/medica.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color:black;
+    padding: 30px;
+}
+.content {
+    background-color: #ffffff;
+    min-height: 300px;
+    padding: 20px;
+}
+.content iframe{
+    width: 100%;
+}
+.footer {
+    background-color: #ffffffd8; /* Cor de fundo do footer */
+    color: #000000; /* Cor do texto no footer */
+    padding: 20px; /* Espaçamento interno para o conteúdo do footer */
+    text-align: center; /* Centralizar o texto horizontalmente */
+}
+.footer iframe {
+    width: 100%; /* Para garantir que o mapa se ajuste à largura do footer */
+    height: 200px; /* Altura do mapa */
+    border: none; /* Remover borda do iframe do mapa */
+}
